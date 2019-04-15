@@ -1,0 +1,18 @@
+{
+  "name": "ma-games-codes-names",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Codes.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balov Bohdan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/node": "^10.11.5"
+  },
+  "dependencies": {
+    "ts-data-structures-utils": "git+https://github.com/balovbohdan/ts-data-structures-utils#0.0.1"
+  }
+}
