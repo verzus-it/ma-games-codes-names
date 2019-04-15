@@ -13,6 +13,6 @@
     "@types/node": "^10.11.5"
   },
   "dependencies": {
-    "ts-data-structures-utils": "git+https://github.com/balovbohdan/ts-data-structures-utils#0.0.1"
+    "ts-data-structures-utils": "git+https://github.com/nika-ai/ts-data-structures-utils#0.0.1"
   }
 }
