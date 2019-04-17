@@ -13,6 +13,7 @@
     "@types/node": "^10.11.5"
   },
   "dependencies": {
+    "camelcase": "^5.3.1",
     "ts-data-structures-utils": "git+https://github.com/nika-ai/ts-data-structures-utils#1.0.0"
   }
 }
