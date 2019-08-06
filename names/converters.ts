@@ -1,6 +1,13 @@
 import camelcase from 'camelcase';
+import {StringUtils} from 'ts-data-structures-utils';
 
 import {Name} from './Name';
+
+export const toCamelCaseFull = (name:Name) => {
+    const shred = toCamelCase(name);
+    
+    return StringUtils.ucfirst(shred);
+};
 
 export const toCamelCase = (name:Name) =>
     camelcase(name);
