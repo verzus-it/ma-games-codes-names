@@ -5,7 +5,7 @@ export class NameToCode {
     static get(name:string):Code {
         name = name === 'AsBrFr'
             ? 'AsBrfr'
-            : 'name';
+            : name;
         
         const codesToNames = CodesToNames.get();
 
