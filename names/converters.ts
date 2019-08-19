@@ -18,7 +18,11 @@ export const toUnderscores = (name:Name) => {
     if (!shreds || shreds.length === 0)
         return name;
 
-    return shreds
+    const nameParsed =  shreds
         .map(s => s.toLowerCase())
         .join('_');
+
+    return nameParsed === 'as_br_fr'
+        ? 'as_brfr'
+        : nameParsed;
 };
