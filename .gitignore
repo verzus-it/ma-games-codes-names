@@ -2,3 +2,7 @@
 *.js.map
 node_modules
 package-lock.json
+*.xml
+*.xml
+.idea/ma-games-codes-names.iml
+.idea/vcs.xml
