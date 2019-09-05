@@ -4,7 +4,7 @@ export class Security {
     /**
      * @throws {GameCodeSecurityError}
      */
-    static validateGameCodes(gameCodes:Code[]):Code[]|never {
+    static validateGameCodes(gameCodes:any):any {
         return gameCodes.map(gameCode =>
             this.validateGameCode(gameCode)
         );
@@ -13,7 +13,7 @@ export class Security {
     /**
      * @throws {GameCodeSecurityError}
      */
-    static validateGameCode(gameCode:any):Code|never {
+    static validateGameCode(gameCode:any):any{
         gameCode = parseInt(gameCode, 10);
         
         if (Codes.getAll().includes(gameCode))
